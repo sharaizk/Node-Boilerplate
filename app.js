@@ -12,10 +12,11 @@ const app = express()
 
 const database = require('./config/database')
 
-// === import Routes here ===
 
 // === CORS Enabled ===
 app.use(cors())
+
+// === import Routes here ===
 
 // === Enabling file uplod
 app.use(fileupload())
